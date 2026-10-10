@@ -27,3 +27,10 @@ This project provides preliminary decision support to help prioritize field insp
 
 ### Reproducibility
 The accompanying Jupyter notebook documents the exploratory analysis. Data access and execution depend on the availability of the public data services and required Python packages.
+ 
+### Data Sources and Licensing
+
+- **Satellite data:** Copernicus Sentinel-2 Level-2A imagery, accessed through the [Microsoft Planetary Computer STAC API](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a).
+- **Data access:** The analysis uses publicly accessible satellite data. Please consult the [Copernicus Sentinel data legal notice](https://sentinels.copernicus.eu/documents/d/sentinel/legal_notice) for the applicable terms of use and attribution.
+- **Software:** This repository contains the analysis notebook and `requirements.txt` listing the Python packages used.
+
